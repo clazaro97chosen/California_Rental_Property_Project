@@ -1,6 +1,6 @@
 # California_Housing_Project
 
-Report
+[Written Report](https://github.com/clazaro97chosen/California_Housing_Project/tree/master/reports)
 
 ### Abstract (tl;dr)
 
@@ -17,11 +17,11 @@ Bob Ross is a 40 year old college professor. He has 1 kid in college and is wido
 
 He explains that across California the top 3 predictors of median rental rates are monthly cost of housing for property owners including mortgage payment, taxes, insurance,and utilities, median housing cost for homeowners with a mortgage(including the cost of the mortgage or other debt), and the median real estate taxes paid by owners of homes in the area.
 
-image
+![alt test](images/Feature_importance_image.png)
 
 Additionally, Tim also shows Bob the figure below and suggest that after taking into account the variables displayed above  his real estate taxes paid, home evaluation i.e. how much the property is worth if it was for sale, and housing cost(including the cost of the mortgage or other debt) contribute to increasing the rental price of his property. On the other hand it suggest his owner cost(monthly cost of housing including mortgage payment, taxes, insurance,and utilities), the number of rooms, and the fact the percent of all occupied housing units that are owned housing units is 38(%) in San Luis Obispo  contribute to decreasing rental price of his property.
 
-image 
+![alt test](images/bobs_input.PNG)
 
 Tim tells Bob that he can come up with a prediction 
 of the rental price of his property within a margin of error of 196 dollars that takes into account several pieces of information about his property and the local real estate market in San Luis Obispo.  Bob thanks Tim for his help he tells him that this will give him a better understanding of whether the quote he receives from the consultant is an accurate estimate. Bob then goes to Linda a real estate agent and rather than be in a state of unknowing he knows that the estimate Linda provides to him aligns with the prediction Tim had provided him. As a result Bob has piece of mind that he has received a fair estimate of the rental price of his property.
@@ -31,49 +31,36 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
-    ├── data
+    ├── datasets
     │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── models             <- Trained and serialized models, model predictions
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── notebooks          <- Jupyter notebooks.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── references         <- Data Information (sources, data dictionaries, manuals)
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Generated analysis as HTML
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
+    │   ├── modeling        <- Scripts to train models, prepare data or perform         |   |                      feature selection, and to train and predict on final     |   |                      test data         
+    │   │   ├── model_tryout.py
+    │   │   └── prep_or_featureselection.py
+    |   |   └── train_and_predict.py
     │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+    │   └── visualizing  <- Scripts to create exploratory and results oriented visualizations
+    │       └── heatmap.py credit  is to Drazen Zaric(https://github.com/drazenz)
+    
+    
 
 
 --------
