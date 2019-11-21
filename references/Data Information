@@ -1,0 +1,54 @@
+Data Collection was done on August 6th, 2019 
+
+Data sources are froom : Towncharts.com , Jake VanderPlas github, Kaggle
+
+Data Dictionary:
+
+### Data dictionary:  39  variables collected 
+
+* housing_units:Total number of housing units in the area
+* housing_density : The number of housing units per square mile in the area
+* change_hunits: Change in housing units from 2010 to 2017
+* \%rent_home_percent: The percent of all occupied housing units that are rental housing units
+* \% owned_homes: The percent of all occupied housing units that are owned housing units 
+* \$ med_homeval: Median home value i.e how much property is worth( house and lot, mobile homes and lot, or condominium unit) if it was for sale 
+
+* \$ med_rental_rate: the median monthly rental amount for a rental unit in this area
+
+* \$ med_owner_cost: The monthly cost of housing for property owners including mortgage payment, taxes, insurance,and utilities.
+
+* \% med_own_cost_aspercentof_income: The monthly owner cost as a percent of the household income. This measure is an excellent way to understand how affordable housing is for owners in an area 
+* \%  med_hval_aspercentof_medearn: How much the property is worth(house and lot, mobile home and lot, or condominium unit) if it was for sale as a percent of the median earnings for a worker in the area 
+* \$ med_hcost_ownmortg: Median housing cost for homeowners with a mortgage(including the cost of the mortgage or other debt) 
+* \$  med_hcost_own_wo_mortg: Median housing cost for homeowners who do not have a mortgage. This isolates the cost of ownership seperate from the financing cost of debt 
+* \% hcost_aspercentof_hincome_ownmortg: Homeowners with a mortgage showing total cost (including mortgage debt) as a percent of household income 
+* hcost_as_perc_of_hincome_womortg: Homeowners without a mortgage showing total cost as a percent of household income.
+
+* \$ med_real_estate_taxes: The median real estate taxes paid by owners of homes in the area 
+* family_members_per_hunit: The average size of related families members who live together in a housing unit. 
+* median_num_ofrooms: The average number of rooms of total rooms for housing units in the area
+* median_year_house_built: The average year the housing units were built in the area. This indicates the average age of housing units in the area.
+* household_size_of_howners: For people who own their homes how many people on average are living in them whether they are part of family or related or not. 
+* household_size_for_renters: The average size of a household for people who are renting.
+* med_year_moved_in_for_owners: The median year that a home owner moved into their home
+* med_year_renter_moved_in: The median year that a renter moved into their home 
+* The following variables are proportion of monthly rental rates by size of  Rental in Bedrooms for the city:
+studio_1000_1499,studio_1500_more,
+studio_750_999,
+onebed_1000_1499,
+onebed_1500_more,
+onebed_750_999,
+twobed_1000_1499,
+twobed_1500_more,
+twobed_750_999,
+threebed_1000_1499,
+threebed_1500_more,
+threebed_750_999
+
+* city: Name of city
+
+* Latitude: Latitude of the city
+
+* Longitude: Longitude of the city
+
+* Population: Population of the city

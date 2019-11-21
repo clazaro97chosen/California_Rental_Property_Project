@@ -1,0 +1,17 @@
+# for data scraping
+
+requests
+urllib
+re
+bs4 
+googlesearch 
+pandas 
+numpy 
+fake_useragent 
+time
+#common imports
+pickle
+matplotlib 
+seaborn 
+joblib
+scikit-learn ='0.21.3
