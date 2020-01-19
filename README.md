@@ -1,6 +1,6 @@
 # California_Housing_Project
 
-[Written Report](https://github.com/clazaro97chosen/California_Housing_Project/tree/master/reports)
+[Written Report](https://github.com/clazaro97chosen/California_Housing_Project/blob/master/reports/California_Housing_Report.pdf)
 
 ### Abstract (tl;dr)
 
