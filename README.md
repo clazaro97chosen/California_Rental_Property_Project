@@ -1,6 +1,6 @@
 # California_Housing_Project
-[Web Application](https://rental-rate-calculator.herokuapp.com/)
-[Written Report](https://github.com/clazaro97chosen/California_Housing_Project/blob/master/reports/California_Housing_Report.pdf)
+[Web Application](https://rental-rate-calculator.herokuapp.com/)<br>
+[Written Report](https://github.com/clazaro97chosen/California_Housing_Project/blob/master/reports/California_Housing_Report.pdf)<br>
 [Story About Applicable Results](#A-story-about-applicable-results-from-the-project)
 ### Abstract (tl;dr)
 
