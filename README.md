@@ -1,8 +1,10 @@
-# California_Housing_Project
+## California_Housing_Project
 [Web Application](https://rental-rate-calculator.herokuapp.com/)<br>
 [Written Report](https://github.com/clazaro97chosen/California_Housing_Project/blob/master/reports/California_Housing_Report.pdf)<br>
-[Story About Applicable Results](#A-story-about-applicable-results-from-the-project)
-### Abstract (tl;dr)
+[Story About Applicable Results](#A-story-about-applicable-results-from-the-project)<br>
+[Repository Organization](#Repository-Organization)
+
+## Overview (tl;dr)
 
 The passing of Tenant Protection Act of 2019 in California ushers in an era of tighter rent controls that California landlords must understand and adjust to. This projects main goal is to provide current landlords with insights towards determining the rental price of their property based on attributes of their property and city real estate market. The objective was to build a model of median rental rate using a subset of variables collected for each city in California from Towncharts.com (a website that provides free housing market data mostly taking from the most recent 2018 American Community Survey). Currently estimates that take into account landlords property attributes and attributes of their cities real estate market are outsourced and often come at a cost. A minimum performance measure of a Root Mean Squared Error of 196 dollars two days of work for an individual working minimum wage was desired. This project applies an Ensemble Learning model consisting of two estimators an Elastic Net and Random Forest Regressor which achieves a RMSE on the test set of 197.95 dollars just shy of our business goal. We find that the monthly cost of housing for property owners including mortgage payment, taxes, insurance,and utilities is the number one predictor of median rental rates. While median housing cost for homeowners with a mortgage(including the cost of the mortgage or other debt) is the number-two predictor of median rental rates and both share a linear relationship with median rental rate. We note that some interesting outlier cities Bradbury, Vernon, Industry, Indian Wells. For future research the model may be improved by obtaining further predictors of median rental rate from other sources. Specifically, Towncharts.com has Education, Economy, and Demographic Data for California cities that may be further gathered and could prove to be valuable in reducing the RMSE performance measure of the Ensemble model. Lastly, a good idea would be to seek domain expertise in regards to what valuable categorical variables should be accounted for when predicting median rental price for a property in a certain city. 
 
@@ -27,7 +29,7 @@ Tim tells Bob that he can come up with a prediction
 of the rental price of his property within a margin of error of 196 dollars that takes into account several pieces of information about his property and the local real estate market in San Luis Obispo.  Bob thanks Tim for his help he tells him that this will give him a better understanding of whether the quote he receives from the consultant is an accurate estimate. Bob then goes to Linda a real estate agent and rather than be in a state of unknowing he knows that the estimate Linda provides to him aligns with the prediction Tim had provided him. As a result Bob has piece of mind that he has received a fair estimate of the rental price of his property.
 
 
-Project Organization
+## Repository Organization
 ------------
 
     ├── LICENSE
